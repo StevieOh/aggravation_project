@@ -6,11 +6,11 @@ body{
    margin: 50px 0;
    position: relative;
    display: block;
-   color: white;
+   color: green;
    width: 0px;
    height: 0px;
    border-right:  100px solid transparent;
-   border-bottom: 70px  solid white;
+   border-bottom: 70px  solid green;
    border-left:   100px solid transparent;
    -moz-transform:    rotate(35deg);
    -webkit-transform: rotate(35deg);
@@ -18,7 +18,7 @@ body{
    -o-transform:      rotate(35deg);
 }
 #green-star:before {
-   border-bottom: 80px solid white;
+   border-bottom: 80px solid green;
    border-left: 30px solid transparent;
    border-right: 30px solid transparent;
    position: absolute;
@@ -32,18 +32,17 @@ body{
    -moz-transform:    rotate(-35deg);
    -ms-transform:     rotate(-35deg);
    -o-transform:      rotate(-35deg);
-
 }
 #green-star:after {
    position: absolute;
    display: block;
-   color: white;
+   color: green;
    top: 3px;
    left: -105px;
    width: 0px;
    height: 0px;
    border-right: 100px solid transparent;
-   border-bottom: 70px solid white;
+   border-bottom: 70px solid green;
    border-left: 100px solid transparent;
    -webkit-transform: rotate(-70deg);
    -moz-transform:    rotate(-70deg);
@@ -51,7 +50,48 @@ body{
    -o-transform:      rotate(-70deg);
    content: '';
 }
-#star {
+
+/*#green-start-base{
+  position: relative;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 60px;
+  width: 200px;
+}
+#green-start-base:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 51%;
+  background: green;
+  -webkit-transform: skew(0deg, 6deg);
+  -moz-transform: skew(0deg, 6deg);
+  -ms-transform: skew(0deg, 6deg);
+  -o-transform: skew(0deg, 6deg);
+  transform: skew(0deg, 6deg);
+}
+#green-start-base:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: green;
+  -webkit-transform: skew(0deg, -6deg);
+  -moz-transform: skew(0deg, -6deg);
+  -ms-transform: skew(0deg, -6deg);
+  -o-transform: skew(0deg, -6deg);
+  transform: skew(0deg, -6deg);
+}​
+
+*/
+
+
+#white-star {
    margin: 50px 0;
    position: relative;
    display: block;
@@ -66,7 +106,7 @@ body{
    -ms-transform:     rotate(35deg);
    -o-transform:      rotate(35deg);
 }
-#star:before {
+#white-star:before {
    border-bottom: 80px solid white;
    border-left: 30px solid transparent;
    border-right: 30px solid transparent;
@@ -83,7 +123,7 @@ body{
    -o-transform:      rotate(-35deg);
 
 }
-#star:after {
+#white-star:after {
    position: absolute;
    display: block;
    color: white;
@@ -100,23 +140,23 @@ body{
    -o-transform:      rotate(-70deg);
    content: '';
 }
-#star {
+#blue-star {
    margin: 50px 0;
    position: relative;
    display: block;
-   color: white;
+   color: blue;
    width: 0px;
    height: 0px;
    border-right:  100px solid transparent;
-   border-bottom: 70px  solid white;
+   border-bottom: 70px  solid blue;
    border-left:   100px solid transparent;
    -moz-transform:    rotate(35deg);
    -webkit-transform: rotate(35deg);
    -ms-transform:     rotate(35deg);
    -o-transform:      rotate(35deg);
 }
-#star:before {
-   border-bottom: 80px solid white;
+#blue-star:before {
+   border-bottom: 80px solid blue;
    border-left: 30px solid transparent;
    border-right: 30px solid transparent;
    position: absolute;
@@ -132,16 +172,16 @@ body{
    -o-transform:      rotate(-35deg);
 
 }
-#star:after {
+#blue-star:after {
    position: absolute;
    display: block;
-   color: white;
+   color: blue;
    top: 3px;
    left: -105px;
    width: 0px;
    height: 0px;
    border-right: 100px solid transparent;
-   border-bottom: 70px solid white;
+   border-bottom: 70px solid blue;
    border-left: 100px solid transparent;
    -webkit-transform: rotate(-70deg);
    -moz-transform:    rotate(-70deg);
@@ -149,23 +189,24 @@ body{
    -o-transform:      rotate(-70deg);
    content: '';
 }
-#star {
+
+#red-star {
    margin: 50px 0;
    position: relative;
    display: block;
-   color: white;
+   color: red;
    width: 0px;
    height: 0px;
    border-right:  100px solid transparent;
-   border-bottom: 70px  solid white;
+   border-bottom: 70px  solid red;
    border-left:   100px solid transparent;
    -moz-transform:    rotate(35deg);
    -webkit-transform: rotate(35deg);
    -ms-transform:     rotate(35deg);
    -o-transform:      rotate(35deg);
 }
-#star:before {
-   border-bottom: 80px solid white;
+#red-star:before {
+   border-bottom: 80px solid red;
    border-left: 30px solid transparent;
    border-right: 30px solid transparent;
    position: absolute;
@@ -181,16 +222,16 @@ body{
    -o-transform:      rotate(-35deg);
 
 }
-#star:after {
+#red-star:after {
    position: absolute;
    display: block;
-   color: white;
+   color: red;
    top: 3px;
    left: -105px;
    width: 0px;
    height: 0px;
    border-right: 100px solid transparent;
-   border-bottom: 70px solid white;
+   border-bottom: 70px solid red;
    border-left: 100px solid transparent;
    -webkit-transform: rotate(-70deg);
    -moz-transform:    rotate(-70deg);
@@ -198,7 +239,7 @@ body{
    -o-transform:      rotate(-70deg);
    content: '';
 }
-#star {
+#yellow-star {
    margin: 50px 0;
    position: relative;
    display: block;
@@ -206,15 +247,15 @@ body{
    width: 0px;
    height: 0px;
    border-right:  100px solid transparent;
-   border-bottom: 70px  solid white;
+   border-bottom: 70px  solid yellow;
    border-left:   100px solid transparent;
    -moz-transform:    rotate(35deg);
    -webkit-transform: rotate(35deg);
    -ms-transform:     rotate(35deg);
    -o-transform:      rotate(35deg);
 }
-#star:before {
-   border-bottom: 80px solid white;
+#yellow-star:before {
+   border-bottom: 80px solid yellow;
    border-left: 30px solid transparent;
    border-right: 30px solid transparent;
    position: absolute;
@@ -230,16 +271,16 @@ body{
    -o-transform:      rotate(-35deg);
 
 }
-#star:after {
+#yellow-star:after {
    position: absolute;
    display: block;
-   color: white;
+   color: yellow;
    top: 3px;
    left: -105px;
    width: 0px;
    height: 0px;
    border-right: 100px solid transparent;
-   border-bottom: 70px solid white;
+   border-bottom: 70px solid yellow;
    border-left: 100px solid transparent;
    -webkit-transform: rotate(-70deg);
    -moz-transform:    rotate(-70deg);
@@ -247,23 +288,23 @@ body{
    -o-transform:      rotate(-70deg);
    content: '';
 }
-#star {
+#orange-star {
    margin: 50px 0;
    position: relative;
    display: block;
-   color: white;
+   color: orange;
    width: 0px;
    height: 0px;
    border-right:  100px solid transparent;
-   border-bottom: 70px  solid white;
+   border-bottom: 70px  solid orange;
    border-left:   100px solid transparent;
    -moz-transform:    rotate(35deg);
    -webkit-transform: rotate(35deg);
    -ms-transform:     rotate(35deg);
    -o-transform:      rotate(35deg);
 }
-#star:before {
-   border-bottom: 80px solid white;
+#orange-star:before {
+   border-bottom: 80px solid orange;
    border-left: 30px solid transparent;
    border-right: 30px solid transparent;
    position: absolute;
@@ -279,16 +320,16 @@ body{
    -o-transform:      rotate(-35deg);
 
 }
-#star:after {
+#orange-star:after {
    position: absolute;
    display: block;
-   color: white;
+   color: orange;
    top: 3px;
    left: -105px;
    width: 0px;
    height: 0px;
    border-right: 100px solid transparent;
-   border-bottom: 70px solid white;
+   border-bottom: 70px solid orange;
    border-left: 100px solid transparent;
    -webkit-transform: rotate(-70deg);
    -moz-transform:    rotate(-70deg);

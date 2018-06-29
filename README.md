@@ -4,14 +4,14 @@
 
 • Each Player starts with four (4) pieces. 
   
-•Player wins when all 4 pieces are moved out of start and make it to their home spot.
+• Player wins when all 4 pieces are moved out of start and make it to their home spot.
 
 • Pieces start at respective start base
 
 • Player rolls die to move. Must roll a 1 or 6 to enter game board. turn ends.
   *if player rolls a 6, roll again*
 
-•Game moves clockwise.
+• Game moves clockwise.
 
 • If you roll a 1 or 6, you can move the game piece already in play, or enter a new piece. 
 
@@ -32,6 +32,10 @@
 • Player can only use the CENTER HOLE shortcut if they roll a 1 after landing in a START position by exact dice roll.
 
 • Player can only EXIT the CENTER HOLE by rolling a 1 with the die.
+
+• Player can move game pieces to HOME BASE by exact dice roll only. If dice roll is too many moves for an exact count, player CANNOT move that piece. 
+
+• If there are no available moves for the dice roll, players turn is over.
 
 
 
