@@ -331,9 +331,10 @@ h1{
    -o-transform:      rotate(-70deg);
    content: '';
 }
-/*#orange-star {
-   margin: 50px 0;
-   position: relative;
+#orange-star {
+   margin: 530px 305px;
+   position: absolute;
+   z-index: 2;
    display: block;
    color: orange;
    width: 0px;
@@ -341,10 +342,10 @@ h1{
    border-right:  100px solid transparent;
    border-bottom: 70px  solid orange;
    border-left:   100px solid transparent;
-   -moz-transform:    rotate(35deg);
-   -webkit-transform: rotate(35deg);
-   -ms-transform:     rotate(35deg);
-   -o-transform:      rotate(35deg);
+   -moz-transform:    rotate(20deg);
+   -webkit-transform: rotate(20deg);
+   -ms-transform:     rotate(20deg);
+   -o-transform:      rotate(20deg);
 }
 #orange-star:before {
    border-bottom: 80px solid orange;
@@ -380,7 +381,7 @@ h1{
    -o-transform:      rotate(-70deg);
    content: '';
 }
-*/
+
 /*#green-start-base{
   position: relative;
   text-align: center;
