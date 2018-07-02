@@ -1,6 +1,33 @@
 body{
   background-color: black; 
 }
+h1{
+  color: white;
+  text-align: center;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 48px;
+}
+#circle {
+  width: 300px;
+  height: 300px;
+  margin:500px 600px;
+  background: grey;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  z-index: 2;
+  }
+
+#gameboard {
+  width: 200px;
+  height: 400px;
+  rotate: 90deg;
+  z-index: 1;
+  background: red;
+  margin: -550px 650px
+}
+
+
 
 #green-star {
    margin: 50px 0;
