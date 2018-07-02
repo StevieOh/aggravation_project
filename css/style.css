@@ -11,7 +11,7 @@ h1{
 }
 
 
-/*#circle {
+#circle {
   position: absolute;
   width: 650px;
   height: 650px;
@@ -19,8 +19,8 @@ h1{
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50%;
-  margin: 200px 0 0 400px;
-  }*/
+  margin: 220px 0 0 375px;
+  }
 #yellow-gameboard {
   position: absolute;
   width: 300px;
