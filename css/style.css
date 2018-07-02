@@ -11,8 +11,9 @@ h1{
 }
 
 
-#circle {
+  #circle {
   position: absolute;
+  z-index: 0;
   width: 650px;
   height: 650px;
   background: grey;
@@ -82,9 +83,11 @@ h1{
 
 
 
-/*#green-star {
-   margin: 50px 0;
-   position: relative;
+#green-star {
+   margin: 275px 470px;
+   padding: 0;
+   position: absolute;
+   z-index: 2;
    display: block;
    color: green;
    width: 0px;
@@ -96,8 +99,8 @@ h1{
    -webkit-transform: rotate(35deg);
    -ms-transform:     rotate(35deg);
    -o-transform:      rotate(35deg);
-}*/
-/*#green-star:before {
+}
+#green-star:before {
    border-bottom: 80px solid green;
    border-left: 30px solid transparent;
    border-right: 30px solid transparent;
@@ -112,8 +115,8 @@ h1{
    -moz-transform:    rotate(-35deg);
    -ms-transform:     rotate(-35deg);
    -o-transform:      rotate(-35deg);
-}*/
-/*#green-star:after {
+}
+#green-star:after {
    position: absolute;
    display: block;
    color: green;
@@ -129,7 +132,7 @@ h1{
    -ms-transform:     rotate(-70deg);
    -o-transform:      rotate(-70deg);
    content: '';
-}*/
+}
 
 /*#green-start-base{
   position: relative;
