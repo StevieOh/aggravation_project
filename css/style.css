@@ -174,9 +174,10 @@ h1{
 */
 
 
-/*#white-star {
-   margin: 50px 0;
-   position: relative;
+#white-star {
+   margin: 780px 460px;
+   position: absolute;
+   z-index: 2;
    display: block;
    color: white;
    width: 0px;
@@ -184,10 +185,10 @@ h1{
    border-right:  100px solid transparent;
    border-bottom: 70px  solid white;
    border-left:   100px solid transparent;
-   -moz-transform:    rotate(35deg);
-   -webkit-transform: rotate(35deg);
-   -ms-transform:     rotate(35deg);
-   -o-transform:      rotate(35deg);
+   -moz-transform:    rotate(65deg);
+   -webkit-transform: rotate(65deg);
+   -ms-transform:     rotate(65deg);
+   -o-transform:      rotate(65deg);
 }
 #white-star:before {
    border-bottom: 80px solid white;
@@ -222,7 +223,7 @@ h1{
    -ms-transform:     rotate(-70deg);
    -o-transform:      rotate(-70deg);
    content: '';
-}*/
+}
 /*#blue-star {
    margin: 50px 0;
    position: relative;
