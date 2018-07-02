@@ -1,5 +1,7 @@
 body{
-  background-color: black; 
+  background-color: black;
+  margin: auto;
+  text-align: center;
 }
 h1{
   color: white;
@@ -7,29 +9,80 @@ h1{
   font-family: 'Covered By Your Grace', cursive;
   font-size: 48px;
 }
-#circle {
-  width: 300px;
-  height: 300px;
-  margin:500px 600px;
+
+
+/*#circle {
+  position: absolute;
+  width: 650px;
+  height: 650px;
   background: grey;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50%;
-  z-index: 2;
-  }
-
-#gameboard {
-  width: 200px;
-  height: 400px;
-  rotate: 90deg;
-  z-index: 1;
+  margin: 200px 0 0 400px;
+  }*/
+#yellow-gameboard {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  transform: rotate(240deg);
+  background: yellow;
+  margin: 470px 0 0 210px;
+  padding: 0px;
+  z-index: -1;
+}
+#blue-gameboard {
+  position: absolute;
+  width: 300px;
+  height: 600px;;
+  transform: rotate(120deg);
+  background: blue;
+  margin: 470px 0 0 880px;
+  padding: 0;
+  z-index: -1;
+}
+#green-gameboard {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  transform: rotate(60deg);
+  background: green;
+  margin: 60px 0 0 880px;
+  padding: 0;
+  z-index: -1;
+}
+#white-gameboard {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  transform: rotate(300deg);
+  background: white;
+  margin: 60px 0 0 210px;
+  padding: 0;
+  z-index: -1;
+}
+#orange-gameboard {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  background: orange;
+  margin: -110px 0 0 545px;
+  padding: 0;
+  z-index: -1;
+}
+#red-gameboard {
+  position: absolute;
+  width: 300px;
+  height: 600px;
   background: red;
-  margin: -550px 650px
+  margin: 640px 0 0 545px;
+  padding: 0;
+  z-index: -3;
 }
 
 
 
-#green-star {
+/*#green-star {
    margin: 50px 0;
    position: relative;
    display: block;
@@ -43,8 +96,8 @@ h1{
    -webkit-transform: rotate(35deg);
    -ms-transform:     rotate(35deg);
    -o-transform:      rotate(35deg);
-}
-#green-star:before {
+}*/
+/*#green-star:before {
    border-bottom: 80px solid green;
    border-left: 30px solid transparent;
    border-right: 30px solid transparent;
@@ -59,8 +112,8 @@ h1{
    -moz-transform:    rotate(-35deg);
    -ms-transform:     rotate(-35deg);
    -o-transform:      rotate(-35deg);
-}
-#green-star:after {
+}*/
+/*#green-star:after {
    position: absolute;
    display: block;
    color: green;
@@ -76,7 +129,7 @@ h1{
    -ms-transform:     rotate(-70deg);
    -o-transform:      rotate(-70deg);
    content: '';
-}
+}*/
 
 /*#green-start-base{
   position: relative;
@@ -118,7 +171,7 @@ h1{
 */
 
 
-#white-star {
+/*#white-star {
    margin: 50px 0;
    position: relative;
    display: block;
@@ -166,8 +219,8 @@ h1{
    -ms-transform:     rotate(-70deg);
    -o-transform:      rotate(-70deg);
    content: '';
-}
-#blue-star {
+}*/
+/*#blue-star {
    margin: 50px 0;
    position: relative;
    display: block;
@@ -216,8 +269,8 @@ h1{
    -o-transform:      rotate(-70deg);
    content: '';
 }
-
-#red-star {
+*/
+/*#red-star {
    margin: 50px 0;
    position: relative;
    display: block;
@@ -265,8 +318,8 @@ h1{
    -ms-transform:     rotate(-70deg);
    -o-transform:      rotate(-70deg);
    content: '';
-}
-#yellow-star {
+}*/
+/*#yellow-star {
    margin: 50px 0;
    position: relative;
    display: block;
@@ -363,4 +416,4 @@ h1{
    -ms-transform:     rotate(-70deg);
    -o-transform:      rotate(-70deg);
    content: '';
-}
+}*/
