@@ -281,9 +281,10 @@ h1{
    -o-transform:      rotate(-70deg);
    content: '';
 }
-/*#yellow-star {
-   margin: 50px 0;
-   position: relative;
+#yellow-star {
+   margin: 800px 750px;
+   position: absolute;
+   z-index: 2;
    display: block;
    color: white;
    width: 0px;
@@ -291,10 +292,10 @@ h1{
    border-right:  100px solid transparent;
    border-bottom: 70px  solid yellow;
    border-left:   100px solid transparent;
-   -moz-transform:    rotate(35deg);
-   -webkit-transform: rotate(35deg);
-   -ms-transform:     rotate(35deg);
-   -o-transform:      rotate(35deg);
+   -moz-transform:    rotate(45deg);
+   -webkit-transform: rotate(45deg);
+   -ms-transform:     rotate(45deg);
+   -o-transform:      rotate(45deg);
 }
 #yellow-star:before {
    border-bottom: 80px solid yellow;
@@ -330,7 +331,7 @@ h1{
    -o-transform:      rotate(-70deg);
    content: '';
 }
-#orange-star {
+/*#orange-star {
    margin: 50px 0;
    position: relative;
    display: block;
@@ -378,8 +379,8 @@ h1{
    -ms-transform:     rotate(-70deg);
    -o-transform:      rotate(-70deg);
    content: '';
-}*/
-
+}
+*/
 /*#green-start-base{
   position: relative;
   text-align: center;
