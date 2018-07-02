@@ -232,7 +232,7 @@ h1{
 }
 
 #red-star {
-   margin: 520px 310px;
+   margin: 520px 915px;
    position: absolute;
    z-index: 2;
    display: block;
@@ -242,10 +242,10 @@ h1{
    border-right:  100px solid transparent;
    border-bottom: 70px  solid red;
    border-left:   100px solid transparent;
-   -moz-transform:    rotate(15deg);
-   -webkit-transform: rotate(15deg);
-   -ms-transform:     rotate(15deg);
-   -o-transform:      rotate(15deg);
+   -moz-transform:    rotate(60deg);
+   -webkit-transform: rotate(60deg);
+   -ms-transform:     rotate(60deg);
+   -o-transform:      rotate(60deg);
 }
 #red-star:before {
    border-bottom: 80px solid red;
