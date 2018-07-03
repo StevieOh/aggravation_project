@@ -300,6 +300,204 @@ h1{
   padding: 0;
   z-index: -1;
 }
+#blue1 {
+  position: absolute;
+  z-index: 0;
+  width: 50px;
+  height: 50px;
+  background: silver;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 870px 0 0 1220px;
+  }
+#blue2 {
+  position: absolute;
+  z-index: 0;
+  width: 50px;
+  height: 50px;
+  background: silver;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 925px 0 0 1190px;
+  }
+#blue3 {
+  position: absolute;
+  z-index: 0;
+  width: 50px;
+  height: 50px;
+  background: silver;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 980px 0 0 1160px;
+  }
+#blue4 {
+  position: absolute;
+  z-index: 0;
+  width: 50px;
+  height: 50px;
+  background: silver;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 940px 0 0 1100px;
+  }
+#blue5 {
+  position: absolute;
+  z-index: 0;
+  width: 50px;
+  height: 50px;
+  background: silver;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 900px 0 0 1035px;
+  }
+#blue6 {
+  position: absolute;
+  z-index: 0;
+  width: 50px;
+  height: 50px;
+  background: silver;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 865px 0 0 975px;
+  }
+#blue7 {
+  position: absolute;
+  z-index: 0;
+  width: 50px;
+  height: 50px;
+  background: silver;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 835px 0 0 920px;
+  }
+  #blue8 {
+  position: absolute;
+  z-index: 0;
+  width: 50px;
+  height: 50px;
+  background: silver;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 640px 0 0 1055px;
+  }
+  #blue9 {
+  position: absolute;
+  z-index: 0;
+  width: 50px;
+  height: 50px;
+  background: silver;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 670px 0 0 1110px;
+  }
+  #blue10 {
+  position: absolute;
+  z-index: 0;
+  width: 50px;
+  height: 50px;
+  background: silver;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 700px 0 0 1165px;
+  }
+  #blue11 {
+  position: absolute;
+  z-index: 0;
+  width: 50px;
+  height: 50px;
+  background: silver;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 730px 0 0 1220px;
+  }
+#blue12 {
+  position: absolute;
+  z-index: 0;
+  width: 50px;
+  height: 50px;
+  background: silver;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 760px 0 0 1275px;
+  }
+#blue13 {
+  position: absolute;
+  z-index: 0;
+  width: 50px;
+  height: 50px;
+  background: silver;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 815px 0 0 1250px;
+  }
+#blue-star-center {
+  position: absolute;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+  background: grey;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 805px 0 0 820px;
+  }
+#blue-home-base1 {
+  position: absolute;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+  background: black;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 845px 0 0 1160px;
+  }
+  #blue-home-base2 {
+  position: absolute;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+  background: black;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 805px 0 0 1085px;
+  }
+  #blue-home-base3 {
+  position: absolute;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+  background: black;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 770px 0 0 1020px;
+  }
+  #blue-home-base4 {
+  position: absolute;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+  background: black;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 735px 0 0 955px;
+  }
 #blue-star {
    margin: 265px 755px;
    position: absolute;
