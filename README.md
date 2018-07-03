@@ -15,6 +15,8 @@
 
 • If you roll a 1 or 6, you can move the game piece already in play, or enter a new piece. 
 
+----
+
 • Player may jump, or even land on, and opponents game piece.
 
 • Player may NOT jump, or land on their own game pieces. 

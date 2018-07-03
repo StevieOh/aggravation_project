@@ -3,16 +3,21 @@
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
   <title>AGGRAVATION</title>
 </head>
 <body>
   <h1>Aggravation</h1>
   <br>
-
+  <button id="dice">DiceRoll</button>
+  <br>
   <div id="yellow-star"></div>
   <div id="yellow-gameboard"></div>
   <div id="yellow-start-base"></div>
-  <div id="yellow-star-center"></div>
+  <div id="yellow-start1"></div>
+  <div id="yellow-start2"></div>
+  <div id="yellow-start3"></div>
+  <div id="yellow-start4"></div>
   <div id="yellow1"></div>
   <div id="yellow2"></div>
   <div id="yellow3"></div>
@@ -30,11 +35,29 @@
   <div id="yellow-home-base2"></div>
   <div id="yellow-home-base3"></div>
   <div id="yellow-home-base4"></div>
+  <div id="yellow-star-center"></div>
 
   <div id="blue-star"></div>
   <div id="blue-gameboard"></div>
   <div id="blue-start-base"></div>
-  <div id="blue-star-center"></div>
+  
+  <div id="blue-start1">
+    <div id="blue-piece1">
+    </div>
+  </div>
+  <div id="blue-start2">
+    <div id="blue-piece2">
+    </div>
+  </div>
+  <div id="blue-start3">
+    <div id="blue-piece3">
+    </div>
+  </div>
+  <div id="blue-start4">
+    <div id="blue-piece4">
+    </div>
+  </div>
+
   <div id="blue1"></div>
   <div id="blue2"></div>
   <div id="blue3"></div>
@@ -52,6 +75,7 @@
   <div id="blue-home-base2"></div>
   <div id="blue-home-base3"></div>
   <div id="blue-home-base4"></div>
+  <div id="blue-star-center"></div>
 
   <div id="green-star"></div>
   <div id="green-gameboard"></div>
@@ -60,7 +84,6 @@
   <div id="green-start2"></div>
   <div id="green-start3"></div>
   <div id="green-start4"></div>
-  <div id="green-star-center"></div>
   <div id="green1"></div>
   <div id="green2"></div>
   <div id="green3"></div>
@@ -78,11 +101,15 @@
   <div id="green-home-base2"></div>
   <div id="green-home-base3"></div>
   <div id="green-home-base4"></div>
+  <div id="green-star-center"></div>
 
   <div id="white-star"></div>
   <div id="white-gameboard"></div>
   <div id="white-start-base"></div>
-  <div id="white-star-center"></div>
+  <div id="white-start1"></div>
+  <div id="white-start2"></div>
+  <div id="white-start3"></div>
+  <div id="white-start4"></div>
   <div id="white1"></div>
   <div id="white2"></div>
   <div id="white3"></div>
@@ -100,11 +127,15 @@
   <div id="white-home-base2"></div>
   <div id="white-home-base3"></div>
   <div id="white-home-base4"></div>
+  <div id="white-star-center"></div>
 
   <div id="orange-star"></div>
   <div id="orange-gameboard"></div>
   <div id="orange-start-base"></div>
-  <div id="orange-star-center"></div>
+  <div id="orange-start1"></div>
+  <div id="orange-start2"></div>
+  <div id="orange-start3"></div>
+  <div id="orange-start4"></div>
   <div id="orange1"></div>
   <div id="orange2"></div>
   <div id="orange3"></div>
@@ -122,6 +153,7 @@
   <div id="orange-home-base2"></div>
   <div id="orange-home-base3"></div>
   <div id="orange-home-base4"></div>
+  <div id="orange-star-center"></div>
 
 
   <div id="red-star"></div>
@@ -131,7 +163,6 @@
   <div id="red-start2"></div>
   <div id="red-start3"></div>
   <div id="red-start4"></div>
-  <div id="red-star-center"></div>
   <div id="red1"></div>
   <div id="red2"></div>
   <div id="red3"></div>
@@ -149,6 +180,7 @@
   <div id="red-home-base2"></div>
   <div id="red-home-base3"></div>
   <div id="red-home-base4"></div>
+  <div id="red-star-center"></div>
   <br>
   <div id="circle"></div>
   <div id="center-circle"></div>
@@ -157,4 +189,5 @@
 
 </body>
 <script src="js/app.js" type="text/javascript"></script>
+<script src="js/dice.js" type="text/javascript"></script>
 </html>
