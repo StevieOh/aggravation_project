@@ -15,6 +15,8 @@ h1{
 button{
   position: absolute;
   margin: -370px 0 0 550px;
+  height: 150px;
+  width: 150px;
   font-size: 72px
 }
 #circle {
@@ -49,7 +51,6 @@ button{
   padding: 0px;
   z-index: -1;
 }
-
 #yellow-start-base {
   position: absolute;
   margin: 870px -100px; 
@@ -130,7 +131,6 @@ button{
   border-radius: 50%;
   margin: 1245px 0 0 800px;
 }
-
 #yellow1 {
   position: absolute;
   z-index: 8;
@@ -1068,7 +1068,7 @@ button{
 }
 #white-start-base{
   position: absolute;
-  z-index: 0;
+  z-index: -1;
   margin: 130px -120px; 
   padding: 12px;
   transform: rotate(120deg);
@@ -1078,7 +1078,7 @@ button{
 #white-start-base:before {
   content: '';
   position: absolute;
-  z-index: 0;
+  z-index: -1;
   top: 0;
   left: 0;
   height: 100%;
@@ -1093,7 +1093,7 @@ button{
 #white-start-base:after {
   content: '';
   position: absolute;
-  z-index: 0;
+  z-index: -1;
   top: 0;
   right: 0;
   height: 100%;
@@ -1107,7 +1107,7 @@ button{
 }​
 #white1 {
   position: absolute;
-  z-index: 6;
+  z-index: 600;
   width: 50px;
   height: 50px;
   background: silver;
@@ -1656,6 +1656,7 @@ button{
 }
 #red-start-base{
   position: absolute;
+  z-index: 0;
   margin: 1200px 505px; 
   padding: 12px;
   transform: rotate(360deg);

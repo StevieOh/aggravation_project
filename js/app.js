@@ -1,6 +1,6 @@
 console.log("Aggravation")
 
-
+//random number generated between 1 and 6
 
 $("#dice").on("click", (event) => {
   const dice = {
@@ -10,7 +10,8 @@ $("#dice").on("click", (event) => {
     return randomNumber;
   }
 }
-  console.log(dice.roll());
+  $("#dice").text(dice.roll()); 
+  //console.log(dice.roll());
 });
  
 // game = {
