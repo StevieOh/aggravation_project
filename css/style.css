@@ -195,8 +195,52 @@ h1{
   border-radius: 50%;
   margin: 545px 0 0 380px;
   }
+#yellow-home-base1 {
+  position: absolute;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+  background: black;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 840px 0 0 180px;
+  }
+  #yellow-home-base2 {
+  position: absolute;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+  background: black;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 800px 0 0 250px;
+  }
+  #yellow-home-base3 {
+  position: absolute;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+  background: black;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 760px 0 0 320px;
+  }
+  #yellow-home-base4 {
+  position: absolute;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+  background: black;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 720px 0 0 390px;
+  }
 #yellow-star {
-   margin: 790px 760px;
+   margin: 790px 745px;
    position: absolute;
    z-index: 2;
    display: block;
