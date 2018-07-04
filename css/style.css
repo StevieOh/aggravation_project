@@ -41,6 +41,9 @@ button{
   border-radius: 50%;
   margin: 320px 0 0 480px;
 }
+/*
+==========================
+*/
 #yellow-gameboard {
   position: absolute;
   width: 300px;
@@ -332,13 +335,13 @@ button{
 #yellow-star {
    margin: 790px 745px;
    position: absolute;
-   z-index: 2;
+   z-index: 4;
    display: block;
    color: white;
    width: 0px;
    height: 0px;
    border-right:  100px solid transparent;
-   border-bottom: 70px  solid yellow;
+   border-bottom: 70px  solid gold;
    border-left:   100px solid transparent;
    -moz-transform:    rotate(40deg);
    -webkit-transform: rotate(40deg);
@@ -346,7 +349,7 @@ button{
    -o-transform:      rotate(40deg);
 }
 #yellow-star:before {
-   border-bottom: 80px solid yellow;
+   border-bottom: 80px solid gold;
    border-left: 30px solid transparent;
    border-right: 30px solid transparent;
    position: absolute;
@@ -360,18 +363,17 @@ button{
    -moz-transform:    rotate(-35deg);
    -ms-transform:     rotate(-35deg);
    -o-transform:      rotate(-35deg);
-
 }
 #yellow-star:after {
    position: absolute;
    display: block;
-   color: yellow;
+   color: gold;
    top: 3px;
    left: -105px;
    width: 0px;
    height: 0px;
    border-right: 100px solid transparent;
-   border-bottom: 70px solid yellow;
+   border-bottom: 70px solid gold;
    border-left: 100px solid transparent;
    -webkit-transform: rotate(-70deg);
    -moz-transform:    rotate(-70deg);
@@ -379,7 +381,9 @@ button{
    -o-transform:      rotate(-70deg);
    content: '';
 }
-
+/*
+===========================
+*/
 #blue-gameboard {
   position: absolute;
   width: 300px;
@@ -470,6 +474,38 @@ button{
   border-radius: 50%;
   margin: 1245px 0 0 800px;
 }
+/*#blue-piece1{
+  position: absolute;
+  z-index: 8;
+  width: 30px;
+  height: 30px;
+  background: #33ccff;
+  border-radius: 50%;
+ }
+#blue-piece2{
+  position: absolute;
+  z-index: 8;
+  width: 30px;
+  height: 30px;
+  background: #33ccff;
+  border-radius: 50%;
+ }
+ #blue-piece3{
+  position: absolute;
+  z-index: 8;
+  width: 30px;
+  height: 30px;
+  background: #33ccff;
+  border-radius: 50%;
+ }
+ #blue-piece4{
+  position: absolute;
+  z-index: 8;
+  width: 30px;
+  height: 30px;
+  background: #33ccff;
+  border-radius: 50%;
+ }*/
 #blue1 {
   position: absolute;
   z-index: 0;
@@ -717,6 +753,10 @@ button{
    -o-transform:      rotate(-70deg);
    content: '';
 }
+/*
+=======================
+*/
+
 #green-gameboard {
   position: absolute;
   width: 300px;
@@ -1056,6 +1096,9 @@ button{
    -o-transform:      rotate(-70deg);
    content: '';
 }
+/*
+================================
+*/
 #white-gameboard {
   position: absolute;
   width: 300px;
@@ -1352,6 +1395,9 @@ button{
    -o-transform:      rotate(-70deg);
    content: '';
 }
+/*
+=============================
+*/
 #orange-gameboard {
   position: absolute;
   width: 300px;
@@ -1551,7 +1597,7 @@ button{
   -webkit-border-radius: 50px;
   border-radius: 50%;
   margin: 275px 0 0 830px;
-  }
+}
 #orange-home-base1 {
   position: absolute;
   z-index: 4;
@@ -1645,6 +1691,9 @@ button{
    -o-transform:      rotate(-70deg);
    content: '';
 }
+/*
+=============================
+*/
 #red-gameboard {
   position: absolute;
   width: 300px;
@@ -1735,6 +1784,38 @@ button{
   border-radius: 50%;
   margin: 1245px 0 0 800px;
 }
+/*#red-piece1{
+  position: absolute;
+  z-index: 8;
+  width: 30px;
+  height: 30px;
+  background: #ff704d;
+  border-radius: 50%;
+ }
+#red-piece2{
+  position: absolute;
+  z-index: 8;
+  width: 30px;
+  height: 30px;
+  background: #ff704d;
+  border-radius: 50%;
+ }
+ #red-piece3{
+  position: absolute;
+  z-index: 8;
+  width: 30px;
+  height: 30px;
+  background: #ff704d;
+  border-radius: 50%;
+ }
+ #red-piece4{
+  position: absolute;
+  z-index: 8;
+  width: 30px;
+  height: 30px;
+  background: #ff704d;
+  border-radius: 50%;
+ }*/
 #red1 {
   position: absolute;
   z-index: 0;
