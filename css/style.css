@@ -21,7 +21,7 @@ button{
 }
 #circle {
   position: absolute;
-  z-index: 0;
+  z-index: 8;
   width: 650px;
   height: 650px;
   background: grey;
@@ -32,7 +32,7 @@ button{
 }
 #center-circle {
   position: absolute;
-  z-index: 2;
+  z-index: 8;
   width: 450px;
   height: 450px;
   background: black;
@@ -46,16 +46,17 @@ button{
 */
 #yellow-gameboard {
   position: absolute;
+  z-index: -1;
   width: 300px;
   height: 600px;
   transform: rotate(240deg);
   background: gold;
   margin: 470px 0 0 210px;
   padding: 0px;
-  z-index: -1;
 }
 #yellow-start-base {
   position: absolute;
+  z-index: -1;
   margin: 870px -100px; 
   padding: 12px;
   transform: rotate(60deg);
@@ -65,6 +66,7 @@ button{
 #yellow-start-base:before {
   content: '';
   position: absolute;
+  z-index: -1;
   top: 0;
   left: 0;
   height: 100%;
@@ -79,6 +81,7 @@ button{
 #yellow-start-base:after {
   content: '';
   position: absolute;
+  z-index: -1;
   top: 0;
   right: 0;
   height: 100%;
@@ -386,16 +389,17 @@ button{
 */
 #blue-gameboard {
   position: absolute;
+  z-index: -1;
   width: 300px;
   height: 600px;;
   transform: rotate(120deg);
   background: blue;
   margin: 470px 0 0 880px;
   padding: 0;
-  z-index: -1;
 }
 #blue-start-base{
   position: absolute;
+  z-index: -1;
   margin: 870px 1110px; 
   padding: 12px;
   transform: rotate(300deg);
@@ -405,6 +409,7 @@ button{
 #blue-start-base:before {
   content: '';
   position: absolute;
+  z-index: -1;
   top: 0;
   left: 0;
   height: 100%;
@@ -419,6 +424,7 @@ button{
 #blue-start-base:after {
   content: '';
   position: absolute;
+  z-index: -1;
   top: 0;
   right: 0;
   height: 100%;
@@ -759,16 +765,17 @@ button{
 
 #green-gameboard {
   position: absolute;
+  z-index: -1;
   width: 300px;
   height: 600px;
   transform: rotate(60deg);
   background: green;
   margin: 60px 0 0 880px;
   padding: 0;
-  z-index: -1;
 }
 #green-start-base{
   position: absolute;
+  z-index: -1;
   margin: 150px 1100px; 
   padding: 12px;
   transform: rotate(240deg);
@@ -778,6 +785,7 @@ button{
 #green-start-base:before {
   content: '';
   position: absolute;
+  z-index: -1;
   top: 0;
   left: 0;
   height: 100%;
@@ -792,6 +800,7 @@ button{
 #green-start-base:after {
   content: '';
   position: absolute;
+  z-index: -1;
   z-index: 0;
   top: 0;
   right: 0;
@@ -1101,13 +1110,13 @@ button{
 */
 #white-gameboard {
   position: absolute;
+  z-index: -1;
   width: 300px;
   height: 600px;
   transform: rotate(300deg);
   background: white;
   margin: 60px 0 0 210px;
   padding: 0;
-  z-index: -1;
 }
 #white-start-base{
   position: absolute;
@@ -1400,12 +1409,12 @@ button{
 */
 #orange-gameboard {
   position: absolute;
+  z-index: -1;
   width: 300px;
   height: 600px;
   background: orange;
   margin: -110px 0 0 545px;
   padding: 0;
-  z-index: -1;
 }
 #orange-start-base{
   position: absolute;
@@ -1419,6 +1428,7 @@ button{
 #orange-start-base:before {
   content: '';
   position: absolute;
+  z-index: -1;
   top: 0;
   left: 0;
   height: 100%;
@@ -1433,6 +1443,7 @@ button{
 #orange-start-base:after {
   content: '';
   position: absolute;
+  z-index: -1;
   top: 0;
   right: 0;
   height: 100%;
@@ -1696,15 +1707,16 @@ button{
 */
 #red-gameboard {
   position: absolute;
+  z-index: -1;
   width: 300px;
   height: 600px;
   background: red;
   margin: 640px 0 0 545px;
   padding: 0;
-  z-index: -3;
 }
 #red-start-base{
   position: absolute;
+  z-index: -1;
   z-index: 0;
   margin: 1200px 505px; 
   padding: 12px;
@@ -1715,6 +1727,7 @@ button{
 #red-start-base:before {
   content: '';
   position: absolute;
+  z-index: -1;
   top: 0;
   left: 0;
   height: 100%;
@@ -1729,6 +1742,7 @@ button{
 #red-start-base:after {
   content: '';
   position: absolute;
+  z-index: -1;
   top: 0;
   right: 0;
   height: 100%;
