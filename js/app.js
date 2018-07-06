@@ -14,51 +14,107 @@ $("#dice").on("click", (event) => {
   //console.log(dice.roll());
 });
  
-// game = {
-//   players: []
-//   createPlayer() {
-//     return new player
-//   }
-// }
-// game.players.push(game.createPlayer());
+
+// example of how to print a piece in a hole
+$('#yellow5').append($('<div/>').attr('id', 'yellow-piece1'));
 
 
+class Piece {
+  constructor(color, number){
+      this.color = color;
+      this.number = number;
+      this.location = this.color + "-start" + this.number;
+  }
+  move(){
 
+  }
+  getId(){
+    // return  a concatenated string
+    this.color = color;
+    this.number = number;
+    //return this.color + "-piece" + this.number
+    
+  }
+}
+
+const piece = new Piece("yellow", "1");
+console.log(piece.getId()); // should print "yellow-piece1" in the console
 
 
 
 
 /* 
-
-class Piece {
-  location = 
-  htmlId = ("blue-piece-1")
-  color = 
-  print() {
-    
+  getIdString() {
+    // return a string corresponding to this piece's id
   }
-}
-const p = new Piece
-p.print()
-
-
-class Player {
-  pieces []
-  printPieces() {
-    
+  
+  move(targetId) {
+    move piece with this.getIdString() to target ID
+    using jQuery (remove and reappend in new location)
   }
+  
+  getLocation() {
+      
+  }
+
 }
 
 
 
-// build RN 1-6 generator (button)
-// get piece to print itself in any div
-// get piece to print itself in specific (by id) div
 
---
 
-// move piece 
+will produce:
 
+
+
+p = {
+  color: blue, 
+  number: 3,
+  location: "blue-start-3",
+  getIdString() {
+  
+  },
+  move(target) {
+  
+  },
+  getLocation() {
+  
+  }
+
+
+}
+
+p.move('#orange3')
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 [
   [
